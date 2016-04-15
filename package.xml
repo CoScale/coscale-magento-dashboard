@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>coscale_dashboard</name>
+    <version>1.0.0</version>
+    <stability>devel</stability>
+    <license>OSL v.3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>CoScale_Dashboard</summary>
+    <description>CoScale_Dashboard</description>
+    <notes>CoScale_Dashboard</notes>
+    <authors><author><name>Ray Bogman</name><user>ray</user><email>ray@supportdesk.nu</email></author></authors>
+    <date>2016-03-08</date>
+    <time>19:58:39</time>
+    <contents><target name="magecommunity"><dir name="CoScale"><dir name="Dashboard"><dir name="controllers"><dir name="Adminhtml"><file name="CustomController.php" hash="677eedf8baf1da8f102a6c1361537dbf"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="f7cd31c0162f4e33b5fb96232fc87608"/><file name="config.xml" hash="b01fca73f2c82e3e1802b8f997ae1ca6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="CoScale_Dashboard.xml" hash="4fa07f7ae843d1dd65290d4ed0d40c21"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

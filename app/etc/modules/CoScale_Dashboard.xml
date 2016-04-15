@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CoScale_Dashboard>
+            <active>true</active>
+            <codePool>community</codePool>
+        </CoScale_Dashboard>
+    </modules>
+</config>

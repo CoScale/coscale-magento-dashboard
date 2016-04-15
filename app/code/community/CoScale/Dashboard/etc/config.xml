@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CoScale_Dashboard>
+            <version>1.0.0</version>
+        </CoScale_Dashboard>
+    </modules>
+    <global>
+        <helpers>
+            <coscale_dashboard>
+                <!-- Helper definition needed by Magento -->
+                <class>Mage_Core_Helper</class>
+            </coscale_dashboard>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <foo_bar before="Mage_Adminhtml">CoScale_Dashboard_Adminhtml</foo_bar>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
